@@ -1,7 +1,9 @@
 # Task1: English grammar Extention
 
 
-# in order to extend the english grammar, as shown in the example provided in the pdf documentation, tags such as <genre> and <album> should be added right after the intent. In addition, the same tags must include entities for the parsing process. In this manner, the english extended grammar should be as such:
+# in order to extend the english grammar, as shown in the example provided in the pdf documentation, tags 
+such as <genre> and <album> should be added right after the intent. In addition, the same tags must include entities 
+for the parsing process. In this manner, the english extended grammar should be as such:
 
 #JSGF V1.0 utf-8 en;
 
