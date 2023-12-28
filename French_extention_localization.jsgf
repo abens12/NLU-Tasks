@@ -4,9 +4,9 @@
 
 #JSGF V1.0 utf-8 fr;
 
-grammar lecture_musique;
+grammar <music_play>;
 
-public <lecture_musique> =
+public <<music_play>> =
   [can you] (put on | play) (<artist> | <song> | <genre> | <album>);
 <artist> =
   the beatles |
