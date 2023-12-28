@@ -34,6 +34,8 @@ Reproduce Ummagumma de Pink Floyd
 Pon Lady Gaga
 [Pon]<unk> [Lady Gaga]<artist>
 
+Ponme Let it be
+
 #as in the French language case, the utterance "Reproduce Ummagumma de Pink Floyd" includes a possessive article "de", therefore IT IS RECOMMENDED TO ADD SPECIFIC TAGS FOR PART OF SPEECH TAGS IN ORDER TO PARSE THE HOLE SENTENCE.
 
 
