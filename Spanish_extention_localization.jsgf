@@ -25,16 +25,16 @@ public <music_play> =
 
 # 2.2 Sample Utterances (Spanish):
 
-Puedes poner jazz
-[Puedes poner]<unk> [jazz]<genre>
+puedes poner jazz
+[puedes poner]<unk> [jazz]<genre>
 
-Reproduce Ummagumma de Pink Floyd
-[Reproduce]<unk> [Ummagumma]<album> [de]<unk> [Pink Floyd]<artist>
+reproduce Ummagumma "de" pink floyd
+[Reproduce]<unk> [Ummagumma]<album> [de]<unk> [pink floyd]<artist>
 
-Pon Lady Gaga
-[Pon]<unk> [Lady Gaga]<artist>
+pon lady gaga
+[Pon]<unk> [lady gaga]<artist>
 
-Ponme Let it be
+Ponme Let it be: this utterance includes a reflexive pronoun pon[me] that must be tagged. 
 
 #as in the French language case, the utterance "Reproduce Ummagumma de Pink Floyd" includes a possessive article "de", therefore IT IS RECOMMENDED TO ADD SPECIFIC TAGS FOR PART OF SPEECH TAGS IN ORDER TO PARSE THE HOLE SENTENCE.
 
