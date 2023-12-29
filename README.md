@@ -4,8 +4,9 @@
   
 + For the localization task, I tailored the grammars to the linguistic and cultural nuances of Arabic, French, and Spanish. The grammars were adapted to handle diverse named entities relevant to each language, including artists, songs, genres, and albums. Sample utterances were provided to showcase the grammars in action, ensuring a comprehensive coverage of music-related requests in both languages.
 
-+ with respect to Arabic, as its orthography differs from the other languages, i attempted to transliterate whatever could be pronounced similar to the original language. should any difference in the pronounciation araises, songs and artists are mantained as they are in original language.
++ Regarding Arabic, given the divergence in orthography compared to other languages, my approach involved transliterating elements that closely align with their pronunciation in the original language. In instances where there might be variations in pronunciation, I retained the names of songs and artists in their original language to preserve authenticity.
 
-+ Generally, utterances could suffer from the lack of POS tags if we rely on the provided grammar. Thus, sentences could sound grammarly uncomplete and therefore semantically uncorrect. I would suggest including new tags for covering semantic and lexical language levels.
++ In general, utterances may face challenges in grammatical completeness and semantic correctness if we solely depend on the provided grammar. As a remedy, I recommend incorporating new tags to encompass both semantic and lexical language levels, ensuring a more comprehensive and linguistically accurate representation.
 
++ To enhance the model's ability to grasp the meaning of user utterances, I propose extending the code by integrating new tags that encompass missing elements, particularly Parts-of-Speech (POS) tags. This augmentation aims to provide a more comprehensive linguistic framework, thereby improving the model's accuracy in understanding and interpreting diverse expressions.
   
