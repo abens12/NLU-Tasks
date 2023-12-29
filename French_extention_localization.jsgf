@@ -7,7 +7,7 @@
 grammar <music_play>;
 
 public <<music_play>> =
-  [can you] (put on | play) (<artist> | <song> | <genre> | <album>);
+  [peux-tu] (jouer| mettre) (<artist> | <song> | <genre> | <album>);
 <artist> =
   the beatles |
   radiohead |
@@ -42,8 +42,30 @@ mettre formidable d'Edith Piaf!
 joue Comfortably Numb de Pink Floyd!
 [joue]<unk> [comfortably numb]<song> [de]<unk> [Pink Floyd]<artist>!
 
-
+# in the earlier example, my aim was to enrich the context to assist the model in accurately determining the intended meaning.
 # note that in order to cover all POS tags includded in this utterances by the parser, it is necessary to extend the grammar for covering them by adding new tags such us (<determiner> | <preposition>) ecc.
+# a viable solution to this issue could involve the integration of additional tags into the existing code:
+
+public <<music_play>> =
+  [peux-tu] (jouer| mettre) (<artist> | <song> | <genre> | <album> | <det> | <pp> | <prep>);
+<artist> =
+  the beatles |
+  radiohead |
+  lady gaga |
+  pink floyd |
+  edith piaf |
+  stromae;
+<det> = 
+  le |
+  la;
+<pp> = 
+  d' |
+  de;
+<prep> = 
+  à |
+  sur |
+  sous; 
+
 
 
 # 2.3 Possible Issues and Suggestions for Localization:
