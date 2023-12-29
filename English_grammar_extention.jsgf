@@ -27,3 +27,15 @@ public <music_play> =
   pop;
 <album> =
   ummagumma;
+
+
++ In the context of the localization task, my focus is on expanding the grammatical structure for Arabic (my mother tongue), Spanish, and French 
+in order to generate coherent utterances in these languages, alongside English. It is crucial to highlight that the amalgamation of various
+linguistic tags has the potential to convey accurate and comprehensive intents. For instance, expressions like "put on let it be," "play jazz," 
+or "can you play lady gaga" are linguistically sound. However, it is noteworthy that when dealing with other languages, users may articulate their
+requests in diverse ways.
+
++ For instance, in Spanish, someone might phrase a request as "pon let it be de Lady Gaga," introducing the possessive pronoun "de" for contextualization.
+The existing code, unfortunately, lacks support for part-of-speech (POS) tags such as prepositions, determiners, possessive pronouns, and similar
+elements. Consequently, there is a need to further enhance and refine the code to encompass the morphosyntactic intricacies of each language, 
+ensuring a more comprehensive coverage at the morphosyntactic language level.
